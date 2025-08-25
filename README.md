@@ -93,7 +93,7 @@ pip install -r requirements.txt
 **Note:**  
 The requirements file includes everything needed for `MainUI.py` **except for OpenMMLab dependencies** (e.g., MMDetection, MMCV, etc.).  
 - You must install OpenMMLab packages manually according to your CUDA version and system configuration.  
-- See [OpenMMLab documentation](https://github.com/open-mmlab/mmdetection) for installation instructions.
+- See [OpenMMLab documentation]([https://github.com/open-mmlab/mmdetection](https://mmdetection.readthedocs.io/en/latest/get_started)) for installation instructions.
 
 ---
 
