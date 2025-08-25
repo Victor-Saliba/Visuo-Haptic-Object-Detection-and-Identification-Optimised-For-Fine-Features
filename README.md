@@ -105,7 +105,7 @@ The requirements file includes everything needed for `MainUI.py` **except for Op
 ## Quick Demo Instructions
 
 1. Install dependencies and OpenMMLab manually.
-2. Download and place `faster_rcnn_victor_coco88.pth` in `for_models/`.
+2. Download `faster_rcnn_victor_coco88.pth` from [Releases page](https://github.com/Victor-Saliba/Hybrid-Visuo-Haptic-Object-Detection-and-Identification-Model-Optimised-For-Fine-Features/releases) and place in `for_models/`.
 3. Ensure you have both a camera and a Gelsight sensor connected.
 4. Run:
     ```sh
