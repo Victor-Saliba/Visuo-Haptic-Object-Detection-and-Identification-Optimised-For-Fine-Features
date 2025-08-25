@@ -65,8 +65,9 @@ Our hypothesis was that the haptic model would outperform vision for fine featur
 
 - **data/**  
   - Contains the datasets for training each respective model (as can be seen by the folder names).
-  - **raw data** subfolder:  
-    - Contains all images and Gelsight videos collected, organized by specific object names (e.g., "M8 Screw #2").
+  - 'raw data organised by object name' subfolder in 'Data':  
+    - Contains all images and Gelsight videos collected, organized by specific object names (e.g., "M8 Screw #2" images are found in Data/raw data organised by object name/GelSight/Small objects/Screws/M8 Screw
+/Object 2/).
     - Gelsight database includes both video frames and still images.
 
 ---
@@ -93,7 +94,7 @@ pip install -r requirements.txt
 **Note:**  
 The requirements file includes everything needed for `MainUI.py` **except for OpenMMLab dependencies** (e.g., MMDetection, MMCV, etc.).  
 - You must install OpenMMLab packages manually according to your CUDA version and system configuration.  
-- See [OpenMMLab documentation]([https://github.com/open-mmlab/mmdetection](https://mmdetection.readthedocs.io/en/latest/get_started)) for installation instructions.
+- See [OpenMMLab documentation]([https://github.com/open-mmlab/mmdetection](https://mmdetection.readthedocs.io/en/latest/get_started) for installation instructions.
 
 ---
 
