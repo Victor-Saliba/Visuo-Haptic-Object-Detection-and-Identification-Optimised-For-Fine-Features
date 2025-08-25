@@ -65,7 +65,7 @@ Our hypothesis was that the haptic model would outperform vision for fine featur
 
 - **data/**  
   - Contains the datasets for training each respective model (as can be seen by the folder names).
-  - 'raw data organised by object name' subfolder in 'Data':  
+  - `raw data organised by object name` subfolder in `Data`:  
     - Contains all images and Gelsight videos collected, organized by specific object names (e.g., "M8 Screw #2" images are found in Data/raw data organised by object name/GelSight/Small objects/Screws/M8 Screw
 /Object 2/).
     - Gelsight database includes both video frames and still images.
