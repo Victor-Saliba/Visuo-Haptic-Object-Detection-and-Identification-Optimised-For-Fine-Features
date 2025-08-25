@@ -1,5 +1,7 @@
 # Hybrid Visuo-Haptic Object Detection and Identification Model (Optimised for Fine Features)
 
+**University of Manchester student project**
+
 ## Overview
 
 This project explores hybrid object detection and identification by combining traditional RGB-based vision with haptic sensing, enabling robust recognition of objects that require fine feature discrimination. While standard object detection frameworks like Faster R-CNN work well for many tasks, they often struggle with:
