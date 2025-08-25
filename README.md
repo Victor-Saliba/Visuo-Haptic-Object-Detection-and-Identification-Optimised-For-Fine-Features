@@ -95,31 +95,31 @@ The requirements file includes everything needed for `MainUI.py` **except for Op
 
 ---
 
-## Model Weights
+## Fine-tuned Faster R-CNN Weights
 
-- **Large model files** (e.g., `.pth` files) are **not included** in the git repo due to size limits.
-- Download required model resources from the [Releases page](https://github.com/Victor-Saliba/Hybrid-Visuo-Haptic-Object-Detection-and-Identification-Model-Optimised-For-Fine-Features/releases) and **place them in the `for_models` folder**.
+- **The Faster R-CNN model weights are not included** in the git repo due to size limits.
+- Download required file,`faster_rcnn_victor_coco88.pth`, from the [Releases page](https://github.com/Victor-Saliba/Hybrid-Visuo-Haptic-Object-Detection-and-Identification-Model-Optimised-For-Fine-Features/releases) and **place them in the `for_models` folder**.
 
 ---
 
 ## Quick Demo Instructions
 
 1. Install dependencies and OpenMMLab manually.
-2. Download and place model weights in `for_models/`.
+2. Download and place `faster_rcnn_victor_coco88.pth` in `for_models/`.
 3. Ensure you have both a camera and a Gelsight sensor connected.
 4. Run:
     ```sh
     python MainUI.py
     ```
-5. Follow prompts for object placement and Gelsight sensing.
+5. Follow prompts for Gelsight sensing.
 
 ---
 
 ## Acknowledgments
 
-- COCO Dataset: [https://cocodataset.org](https://cocodataset.org)
-- Gelsight SDK: [https://www.gelsight.com](https://www.gelsight.com)
-- OpenMMLab: [https://github.com/open-mmlab](https://github.com/open-mmlab)
+- [COCO Dataset](https://cocodataset.org)
+- [@open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection)
+- [@gelsightinc/gsrobotics](https://github.com/gelsightinc/gsrobotics)
 
 ---
 
