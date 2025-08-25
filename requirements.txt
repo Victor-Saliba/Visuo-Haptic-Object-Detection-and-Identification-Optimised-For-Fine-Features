@@ -1,0 +1,16 @@
+opencv-python
+numpy
+pillow
+pyrealsense2
+kivy
+
+# MMDetection, MMCV, PyTorch, and torchvision are NOT pinned here because:
+# - They must be installed following the official MMDetection instructions:
+#   https://mmdetection.readthedocs.io/en/latest/get_started.html
+# - This ensures compatibility between CUDA, PyTorch, MMCV, and MMDetection.
+
+# Please follow the instructions above to install:
+#   - mmdet
+#   - mmcv
+#   - torch
+#   - torchvision

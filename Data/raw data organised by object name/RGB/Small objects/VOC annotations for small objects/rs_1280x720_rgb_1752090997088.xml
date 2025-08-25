@@ -1,0 +1,25 @@
+<annotation>
+	<folder>small-objects</folder>
+	<filename>rs_rgb_1752090997088.png</filename>
+	<path>/small-objects/rs_rgb_1752090997088.png</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>Screw8</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>730</xmin>
+			<ymin>219</ymin>
+			<xmax>826</xmax>
+			<ymax>264</ymax>
+		</bndbox>
+	</object>
+</annotation>

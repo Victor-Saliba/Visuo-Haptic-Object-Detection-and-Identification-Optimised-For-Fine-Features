@@ -1,0 +1,25 @@
+<annotation>
+	<folder>small-objects</folder>
+	<filename>rs_fullres_rgb_1752596920199.png</filename>
+	<path>/small-objects/rs_fullres_rgb_1752596920199.png</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>Nut5</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1364</xmin>
+			<ymin>455</ymin>
+			<xmax>1419</xmax>
+			<ymax>508</ymax>
+		</bndbox>
+	</object>
+</annotation>

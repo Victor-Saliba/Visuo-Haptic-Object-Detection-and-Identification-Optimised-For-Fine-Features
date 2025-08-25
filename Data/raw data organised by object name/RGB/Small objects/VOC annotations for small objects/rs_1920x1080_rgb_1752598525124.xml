@@ -1,0 +1,25 @@
+<annotation>
+	<folder>small-objects</folder>
+	<filename>rs_fullres_rgb_1752598525124.png</filename>
+	<path>/small-objects/rs_fullres_rgb_1752598525124.png</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>Screw2</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1629</xmin>
+			<ymin>610</ymin>
+			<xmax>1682</xmax>
+			<ymax>653</ymax>
+		</bndbox>
+	</object>
+</annotation>

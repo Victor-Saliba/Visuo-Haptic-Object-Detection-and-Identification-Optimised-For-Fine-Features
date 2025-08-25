@@ -1,0 +1,25 @@
+<annotation>
+	<folder>small-objects</folder>
+	<filename>rs_rgb_1752091676961.png</filename>
+	<path>/small-objects/rs_rgb_1752091676961.png</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>Nut10</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>584</xmin>
+			<ymin>91</ymin>
+			<xmax>639</xmax>
+			<ymax>147</ymax>
+		</bndbox>
+	</object>
+</annotation>
