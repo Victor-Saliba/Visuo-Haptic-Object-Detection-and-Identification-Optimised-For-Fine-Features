@@ -38,7 +38,7 @@ The `screws` and `nuts` classes (called **small objects**) are further subdivide
 
 Our hypothesis was that the haptic model would outperform vision for fine features, and this was confirmed in our results.
 
-![Model Architecture](architecture.png)
+![Model Architecture](architecture.jpg)
 
 ---
 
