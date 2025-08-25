@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project explores **hybrid object detection and identification** by combining traditional RGB-based vision with haptic sensing, enabling robust recognition of objects that require fine feature discrimination. While standard object detection frameworks like Faster R-CNN work well for many tasks, they often struggle with:
+This project explores hybrid object detection and identification by combining traditional RGB-based vision with haptic sensing, enabling robust recognition of objects that require fine feature discrimination. While standard object detection frameworks like Faster R-CNN work well for many tasks, they often struggle with:
 
 - Poor lighting conditions
 - Features that are too fine to resolve with standard RGB images
