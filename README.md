@@ -94,7 +94,7 @@ pip install -r requirements.txt
 **Note:**  
 The requirements file includes everything needed for `MainUI.py` **except for OpenMMLab dependencies** (e.g., MMDetection, MMCV, etc.).  
 - You must install OpenMMLab packages manually according to your CUDA version and system configuration.  
-- See [OpenMMLab documentation]([https://github.com/open-mmlab/mmdetection](https://mmdetection.readthedocs.io/en/latest/get_started) for installation instructions.
+- See [OpenMMLab documentation](https://mmdetection.readthedocs.io/en/latest/get_started.html) for installation instructions.
 
 ---
 
@@ -107,14 +107,15 @@ The requirements file includes everything needed for `MainUI.py` **except for Op
 
 ## Quick Demo Instructions
 
-1. Install dependencies and OpenMMLab manually.
-2. Download `faster_rcnn_victor_coco88.pth` from [Releases page](https://github.com/Victor-Saliba/Hybrid-Visuo-Haptic-Object-Detection-and-Identification-Model-Optimised-For-Fine-Features/releases) and place in `for_models/`.
-3. Ensure you have both a camera and a Gelsight sensor connected.
-4. Run:
+1. Install requirements and OpenMMLab manually.
+2. Download `MainUI.py`, `for_models`, and the `gsrobotics`, making sure they are all in the same folder locally.
+3. Download `faster_rcnn_victor_coco88.pth` from [Releases page](https://github.com/Victor-Saliba/Hybrid-Visuo-Haptic-Object-Detection-and-Identification-Model-Optimised-For-Fine-Features/releases) and place in `for_models/`.
+4. Ensure you have both a camera and a Gelsight sensor connected.
+5. Run:
     ```sh
     python MainUI.py
     ```
-5. Follow prompts for Gelsight sensing.
+6. Follow prompts for Gelsight sensing.
 
 ---
 
