@@ -3,6 +3,7 @@ numpy
 pillow
 pyrealsense2
 kivy
+pydantic
 
 # MMDetection, MMCV, PyTorch, and torchvision are NOT pinned here because:
 # - They must be installed following the official MMDetection instructions:
