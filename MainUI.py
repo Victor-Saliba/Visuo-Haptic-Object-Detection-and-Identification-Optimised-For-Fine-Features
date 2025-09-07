@@ -10,6 +10,12 @@ When GelSight is ON, RealSense detection/classification is paused and frame is f
 """
 
 import os, sys, time, json, random
+import logging
+logging.getLogger('matplotlib.font_manager').setLevel(logging.ERROR)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+FOR_MODELS_DIR = os.path.join(BASE_DIR, "for_models")
+sys.path.append(FOR_MODELS_DIR)
+import coco88_dataset
 import cv2
 import numpy as np
 import torch
@@ -29,8 +35,6 @@ from kivy.metrics import dp
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.image import Image
 from kivy.uix.label import Label
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 #gelsight SDK
 sys.path.append(os.path.join(BASE_DIR, "gsrobotics"))
@@ -68,7 +72,7 @@ class MultiCamApp(App):
 
     def build(self):
         Window.size = (1024, 768)
-        Window.minimum_width, Window.minimum_height = 800, 600
+        Window.minimum_size = (800, 600)
 
         root = BoxLayout(orientation="vertical")
         self.status_label = Label(text="Initializing…", font_size=dp(20),
@@ -262,12 +266,12 @@ class MultiCamApp(App):
         return True
 
 #paths relative to this script's folder
-MultiCamApp.DETECT_CFG       = os.path.join(BASE_DIR, "for_models", "faster_rcnn_victor_coco88_config.py") #faster rcnn config
-MultiCamApp.DETECT_CKPT      = os.path.join(BASE_DIR, "for_models", "faster_rcnn_victor_coco88.pth") #faster rcnn pth
-MultiCamApp.CLS_CKPT_VIS     = os.path.join(BASE_DIR, "for_models", "vision_resnet18.pth") #vision stage 2 model pth
-MultiCamApp.CLASS_NAMES_VIS  = os.path.join(BASE_DIR, "for_models", "class_names_vision.json") #class names json for vision stage 2 model
-MultiCamApp.CLS_CKPT_TACT    = os.path.join(BASE_DIR, "for_models", "gelsight_resnet18.pth") #gelsight model pth
-MultiCamApp.CLASS_NAMES_TACT = os.path.join(BASE_DIR, "for_models", "class_names_gs.json") #class names json for gelsight model
+MultiCamApp.DETECT_CFG       = os.path.join(FOR_MODELS_DIR, "faster_rcnn_victor_coco88_config.py") #faster rcnn config
+MultiCamApp.DETECT_CKPT      = os.path.join(FOR_MODELS_DIR, "faster_rcnn_victor_coco88.pth") #faster rcnn pth
+MultiCamApp.CLS_CKPT_VIS     = os.path.join(FOR_MODELS_DIR, "vision_resnet18.pth") #vision stage 2 model pth
+MultiCamApp.CLASS_NAMES_VIS  = os.path.join(FOR_MODELS_DIR, "class_names_vision.json") #class names json for vision stage 2 model
+MultiCamApp.CLS_CKPT_TACT    = os.path.join(FOR_MODELS_DIR, "gelsight_resnet18.pth") #gelsight model pth
+MultiCamApp.CLASS_NAMES_TACT = os.path.join(FOR_MODELS_DIR, "class_names_gs.json") #class names json for gelsight model
 
 if __name__ == "__main__":
     MultiCamApp().run()
