@@ -85,4 +85,5 @@ for epoch in range(num_epochs):
     print(f"val loss: {val_loss:.4f} accuracy: {val_acc:.4f}")
 
 #save model
-torch.save(model.state_dict(), os.path.join(os.path.dirname(os.path.abspath(__file__)), "vision_resnet18.pth"))
+
+torch.save(model.state_dict(), os.path.join(os.path.dirname(os.path.abspath(__file__)), "vision_resnet18_224x224.pth"))
